@@ -1,6 +1,8 @@
-const crntarticlecount = 0;
+const crntarticlecount = 1;
 
-const articlesMeta = {};
+const articlesMeta = {
+  1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" }
+};
 
 function renderArticles(page = 1) {
   const perPage = 4;
