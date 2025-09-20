@@ -1,0 +1,15 @@
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.AssemblyInfoInputs.cache
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.AssemblyInfo.cs
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.csproj.CoreCompileInputs.cache
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.sourcelink.json
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\bin\Debug\net9.0\ArticleGenerator.exe
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\bin\Debug\net9.0\ArticleGenerator.deps.json
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\bin\Debug\net9.0\ArticleGenerator.runtimeconfig.json
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\bin\Debug\net9.0\ArticleGenerator.dll
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\bin\Debug\net9.0\ArticleGenerator.pdb
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.dll
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\refint\ArticleGenerator.dll
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.pdb
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ArticleGenerator.genruntimeconfig.cache
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\obj\Debug\net9.0\ref\ArticleGenerator.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "D2bdU8Y/aqI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\ArticleGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mohammed\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.7\\microsoft.net.illink.tasks.9.0.7.nupkg.sha512",
+    "C:\\Users\\mohammed\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\9.0.7\\microsoft.netcore.app.runtime.win-x86.9.0.7.nupkg.sha512",
+    "C:\\Users\\mohammed\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\9.0.7\\microsoft.windowsdesktop.app.runtime.win-x86.9.0.7.nupkg.sha512",
+    "C:\\Users\\mohammed\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\9.0.7\\microsoft.aspnetcore.app.runtime.win-x86.9.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

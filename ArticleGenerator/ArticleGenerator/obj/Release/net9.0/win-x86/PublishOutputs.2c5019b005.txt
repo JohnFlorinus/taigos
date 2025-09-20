@@ -1,0 +1,2 @@
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\bin\Release\net9.0\publish\win-x86\ArticleGenerator.pdb
+C:\Users\mohammed\Desktop\repos\taigos\ArticleGenerator\ArticleGenerator\bin\Release\net9.0\publish\win-x86\ArticleGenerator.exe

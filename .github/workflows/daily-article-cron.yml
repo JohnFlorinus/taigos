@@ -1,0 +1,41 @@
+name: Daily Finance Essay Generator
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '30 12 * * *' # Runs daily at 12:30 UTC 
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-deploy:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main      # Make sure we’re on the main branch
+          fetch-depth: 0 # Needed so we can push back
+
+      - name: Run C# executable to generate article
+        run: ./ArticleGenerator.exe
+        env:
+          FINNHUB_MARKET_NEWS_URL: ${{ secrets.FINNHUB_MARKET_NEWS_URL }}
+          FINNHUB_CRYPTO_NEWS_URL: ${{ secrets.FINNHUB_CRYPTO_NEWS_URL }}
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+
+      - name: Commit and push new article
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add website/
+          git commit -m "feat: Automated daily article update" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
