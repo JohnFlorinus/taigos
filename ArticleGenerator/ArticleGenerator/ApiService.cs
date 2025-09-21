@@ -13,11 +13,10 @@ namespace ArticleGenerator
     {
         private static readonly HttpClient client = new HttpClient();
         private const string LLM = "meta/llama-4-scout-17b-16e-instruct";
-
         public static string articleImage = "Empty";
 
 
-        public static async Task<string> GetNews()
+        public static async Task<string> GetNews(string previousImage)
         {
             string newsToAnalyze = "";
 
@@ -30,7 +29,7 @@ namespace ArticleGenerator
                 {
                     foreach (var item in newsItems)
                     {
-                        if (!item.image.Contains("market_watch") && articleImage == "Empty")
+                        if (!item.image.Contains("market_watch") && articleImage == "Empty" && item.image != previousImage)
                         {
                             articleImage = item.image;
                         }
@@ -73,6 +72,8 @@ namespace ArticleGenerator
 
             return newsToAnalyze;
         }
+
+
 
         public static async Task<string> AITextGeneration(string prompt)
         {

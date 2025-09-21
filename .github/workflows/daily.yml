@@ -1,0 +1,38 @@
+name: Article Scheduler
+
+on:
+  schedule:
+    - cron: '22 13 * * *' # uneven timestamp to avoid high GHA load times
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-deploy:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+          fetch-depth: 0
+
+      - name: Run C# executable to generate article
+        run: ./ArticleGenerator.exe
+        env:
+          FINNHUB_MARKET_NEWS_URL: ${{ secrets.FINNHUB_MARKET_NEWS_URL }}
+          FINNHUB_CRYPTO_NEWS_URL: ${{ secrets.FINNHUB_CRYPTO_NEWS_URL }}
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+
+      - name: Commit and push new article
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add website/
+          git commit -m "Daily Article Update" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

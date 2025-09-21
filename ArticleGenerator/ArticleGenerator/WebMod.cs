@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArticleGenerator.objects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +11,9 @@ namespace ArticleGenerator
 {
     public static class WebMod
     {
-        public static async Task<int> UpdateArticleJS(string articleTitle, string articleImage)
+        public static async Task<int> IncrementArticleCountAndJSMetadata(string articleTitle, string articleImage)
         {
-            // Define file paths
             string jsFilePath = Path.Combine("website", "js", "articles.js");
-
-            // Read the content of the JS file
             string jsContent = File.ReadAllText(jsFilePath);
 
             // Use a regex to find the current article count
@@ -50,12 +48,12 @@ namespace ArticleGenerator
 
                     if (string.IsNullOrWhiteSpace(entries))
                     {
-                        // articlesMeta = {} → just insert first entry
+                        // articlesMeta = {}, just insert first entry
                         entries = $"  {newEntry}";
                     }
                     else
                     {
-                        // Already has entries → append with comma
+                        // Already has entries, append with comma
                         if (!entries.TrimEnd().EndsWith(",")) entries += ",";
                         entries += $"\n  {newEntry}";
                     }
@@ -84,6 +82,67 @@ namespace ArticleGenerator
                 return 0;
             }
         }
+
+        public static async Task<ArticleItem> GetLatestArticle()
+        {
+            string jsFilePath = Path.Combine("website", "js", "articles.js");
+            if (!File.Exists(jsFilePath))
+            {
+                Console.WriteLine("Error: articles.js not found.");
+                return null;
+            }
+
+            string jsContent = await File.ReadAllTextAsync(jsFilePath);
+
+            //  Get the latest article count
+            var countMatch = Regex.Match(jsContent, @"const crntarticlecount = (\d+);");
+            if (!countMatch.Success)
+            {
+                Console.WriteLine("Error: Could not find 'crntarticlecount' in articles.js.");
+                return null;
+            }
+
+            int latestCount = int.Parse(countMatch.Groups[1].Value);
+
+            // Get the latest article title and image
+            var lastEntryMatch = Regex.Match(jsContent,
+                @"(\d+):\s*{\s*title:\s*""([^""]+)"",\s*img:\s*""([^""]+)""",
+                RegexOptions.Multiline | RegexOptions.RightToLeft);
+
+            if (!lastEntryMatch.Success)
+            {
+                Console.WriteLine("Error: Could not find the latest article in articlesMeta.");
+                return null;
+            }
+
+            string latestTitle = lastEntryMatch.Groups[2].Value;
+            string latestImage = lastEntryMatch.Groups[3].Value;
+
+            // Get the latest article content from HTML
+            string htmlFilePath = Path.Combine("website", "articles", $"{latestCount}.html");
+            if (!File.Exists(htmlFilePath))
+            {
+                Console.WriteLine($"Error: Article HTML file '{latestCount}.html' not found.");
+                return null;
+            }
+
+            string htmlContent = await File.ReadAllTextAsync(htmlFilePath);
+            var contentMatch = Regex.Match(htmlContent,
+                @"<p style=""white-space: pre-line"">\s*(.*?)\s*</p>",
+                RegexOptions.Singleline);
+
+            string essay = contentMatch.Success ? contentMatch.Groups[1].Value.Trim() : "nothing";
+
+            // Return combined ArticleItem
+            return new ArticleItem
+            {
+                Count = latestCount,
+                Title = latestTitle,
+                ImageUrl = latestImage,
+                Content = essay
+            };
+        }
+
 
         public static async Task WriteHTMLArticle(string imageUrl, int newCount, string Essay, string Summary)
         {
