@@ -119,8 +119,8 @@ namespace ArticleGenerator
     <link rel=""stylesheet"" href=""../css/icomoon.css"">
     <link rel=""stylesheet"" href=""../css/style.css"">
 
-    <link rel=""stylesheet"" href=""https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"" />
-    <script src=""https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js""></script>
+    <script async src=""https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9310926432083809""
+     crossorigin=""anonymous""></script>
   </head>
   <body>
     
@@ -157,7 +157,7 @@ namespace ArticleGenerator
    <section class=""ftco-section ftco-degree-bg"">
       <div class=""container"">
         <div class=""row"">
-          <div class=""col-lg-8 ftco-animate"">
+          <div class=""col-lg-8"">
             <p class=""mb-5"">
               <img src=""{imageUrl}"" class=""img-fluid"">
             </p>
@@ -167,9 +167,9 @@ namespace ArticleGenerator
             </p>
             <p><b>DISCLAIMER - We are not liable for any investments you make with the news we provide you. The purpose of this website is to give you a simple and concise news report every day for staying informed.</b></p>
           </div> <!-- .col-md-8 -->
-          <div class=""col-lg-4 sidebar pl-lg-5 ftco-animate"">
+          <div class=""col-lg-4 sidebar pl-lg-5"">
 
-            <div class=""sidebar-box ftco-animate"">
+            <div class=""sidebar-box"">
               <h3>Tags</h3>
               <div class=""tagcloud"">
                 <a href=""#"" class=""tag-cloud-link"">market</a>
@@ -183,7 +183,7 @@ namespace ArticleGenerator
               </div>
             </div>
 
-            <div class=""sidebar-box ftco-animate"">
+            <div class=""sidebar-box"">
               <h3>Report Summary</h3>
               <p>{Summary}</p>
             </div>

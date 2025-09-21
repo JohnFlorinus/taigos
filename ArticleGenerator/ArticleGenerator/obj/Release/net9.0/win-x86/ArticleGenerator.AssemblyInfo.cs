@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArticleGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbafdbe7cbaf27074f4855f385f07c95cfbb7158")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f57e452c228bf92cf1a03add24b6891f9facb81")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArticleGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArticleGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
