@@ -52,12 +52,8 @@ Unlike traditional news apps, this project avoids databases entirely:
 ## 📂 Tech Stack
 
 - **Backend Logic**:  
-  ![.NET](https://img.shields.io/badge/.NET%209-512BD4?logo=dotnet&logoColor=white)  
-  C# console application for fetching & processing news.  
-
-- **AI Summarization**:  
-  ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers%20AI-orange?logo=cloudflare)  
-  LLaMA LLM models via Cloudflare Workers AI API.  
+  ![C#](https://img.shields.io/badge/C%23%20.NET%209-239120?logo=csharp)<br>
+  C# console application for generating new articles.
 
 - **Frontend**:  
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)  
