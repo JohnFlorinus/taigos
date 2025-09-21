@@ -18,7 +18,7 @@ This is a fully autonomous **financial news aggregation website** that updates i
 
 ### 🔄 Daily Update Cycle
 1. **GitHub Actions Cron Job**  
-   - Runs every 24 hours at 12:30 UTC before US stock market opens.  
+   - Runs once every 24 hours at 12:30 UTC before the US stock market opens.  
    - Executes the compiled **C# .NET 9 console application**.  
 
 2. **Fetch Financial News**  
