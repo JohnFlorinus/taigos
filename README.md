@@ -1,9 +1,4 @@
-# 📈 Autonomously-Updated Financial News Aggregator with LLM-Generation
-
-![GitHub Workflow](https://img.shields.io/github/actions/workflow/status/JohnFlorinus/taigos/daily.yml?label=Daily%20Update)  
-![Made with C#](https://img.shields.io/badge/Made%20with-C%23-239120?logo=c-sharp&logoColor=white)  
-![Cloudflare](https://img.shields.io/badge/Powered%20by-Cloudflare-orange?logo=cloudflare)
-
+# 📰 Autonomously-Updated Financial News Aggregator with LLM-Generation
 🔗 **Live Demo**: [https://taigos.com](https://taigos.com)
 
 ---
