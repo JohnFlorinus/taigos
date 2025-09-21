@@ -1,14 +1,15 @@
-# 📰 Autonomous News Aggregator with LLM-Generation - <a href="https://taigos.com">🔗 **Live Demo**</a>
+# 📰 Autonomous News Website - <a href="https://taigos.com">🔗 **Live Demo**</a>
 
 ---
 
 ## 🌐 Project Overview
-This is a fully autonomous **financial news aggregation website** that updates itself **once every 24 hours** with fresh stock market and crypto headlines.  
+This is a fully autonomous **financial news aggregation website** that updates itself **once every 24 hours** with fresh headlines.  
 
 - ✅ **No database required** → all articles are generated as `.html` files and committed directly to the repo.  
-- ✅ **Zero hosting costs** → the site is deployed via **Cloudflare Pages**, leveraging GitHub Actions (GHA) and Wrangler.  
-- ✅ **AI summaries** → the daily news is summarized using **Cloudflare Workers AI (LLaMA LLM)**.  
-- ✅ **Minimalistic & Screen Responsive frontend** → based on the [Readit Bootstrap Template](https://preview.colorlib.com/theme/readit/).  
+- ✅ **LLM-Generation** → the daily news is summarized using **Cloudflare Workers AI**.
+- ✅ **Monetization** → website is integrated with **AdSense** for advertisements.
+- ✅ **Zero hosting costs** → Runs entirely on **Cloudflare Pages** and **GitHub Actions**
+- ✅ **Minimalistic frontend** → based on the [Readit Bootstrap Template](https://preview.colorlib.com/theme/readit/).  
 
 ⚠️ This **README** was AI-generated for better readability and structure. However, the project itself was manually coded by myself (the frontend design was based on a premade HTML5 template).
 
