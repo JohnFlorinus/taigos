@@ -10,7 +10,7 @@ This is a fully autonomous **financial news aggregation website** that updates i
 - ✅ **AI summaries** → the daily news is summarized using **Cloudflare Workers AI (LLaMA LLM)**.  
 - ✅ **Minimalistic & Screen Responsive frontend** → based on the [Readit Bootstrap Template](https://preview.colorlib.com/theme/readit/).  
 
-⚠️ This **README** was AI-generated for better readability and structure. However, the project itself was manually coded by myself although the frontend was heavily based on a premade HTML5 template.
+⚠️ This **README** was AI-generated for better readability and structure. However, the project itself was manually coded by myself (the frontend design was based on a premade HTML5 template).
 
 ---
 
