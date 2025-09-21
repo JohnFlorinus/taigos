@@ -1,4 +1,4 @@
-# 📰 Autonomous News Aggregator with AI - <a href="https://taigos.com">🔗 **Live Demo**</a>
+# 📰 Autonomous News Aggregator with LLM-Generation - <a href="https://taigos.com">🔗 **Live Demo**</a>
 
 ---
 
