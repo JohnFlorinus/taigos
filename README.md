@@ -7,10 +7,10 @@ This is a fully autonomous **financial news aggregation website** that updates i
 
 - ✅ **No database required** → all articles are generated as `.html` files and committed directly to the repo.  
 - ✅ **Zero hosting costs** → the site is deployed via **Cloudflare Pages**, leveraging GitHub Actions (GHA) and Wrangler.  
-- ✅ **AI summaries** → every article is summarized using **Cloudflare Workers AI (LLaMA LLM)**.  
+- ✅ **AI summaries** → the daily news is summarized using **Cloudflare Workers AI (LLaMA LLM)**.  
 - ✅ **Minimalistic & Screen Responsive frontend** → based on the [Readit Bootstrap Template](https://preview.colorlib.com/theme/readit/).  
 
-⚠️ This **README** was AI-generated for better readability and structure. However, the project itself was manually coded by myself.  
+⚠️ This **README** was AI-generated for better readability and structure. However, the project itself was manually coded by myself.
 
 ---
 
