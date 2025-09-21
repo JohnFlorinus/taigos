@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|c:\\users\\mohammed\\desktop\\repos\\taigos\\articlegenerator\\articlegenerator\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|solutionrelative:articlegenerator\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|c:\\users\\mohammed\\desktop\\repos\\taigos\\articlegenerator\\articlegenerator\\objects\\newsapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|solutionrelative:articlegenerator\\objects\\newsapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NewsApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\objects\\NewsApiResponse.cs",
-              "RelativeDocumentMoniker": "ArticleGenerator\\objects\\NewsApiResponse.cs",
-              "ToolTip": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\objects\\NewsApiResponse.cs",
-              "RelativeToolTip": "ArticleGenerator\\objects\\NewsApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T15:03:05.176Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,7 +28,7 @@
               "RelativeDocumentMoniker": "ArticleGenerator\\ApiService.cs",
               "ToolTip": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\ApiService.cs",
               "RelativeToolTip": "ArticleGenerator\\ApiService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAQwBYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T15:51:03.556Z",
               "EditorCaption": ""
@@ -58,7 +41,7 @@
               "RelativeDocumentMoniker": "ArticleGenerator\\Program.cs",
               "ToolTip": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\Program.cs",
               "RelativeToolTip": "ArticleGenerator\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAEMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T15:29:08.333Z",
               "EditorCaption": ""
