@@ -1,9 +1,6 @@
 name: Daily Finance Essay Generator
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: '30 12 * * *' # Runs daily at 12:30 UTC 
 
