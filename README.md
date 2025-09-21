@@ -44,7 +44,7 @@ This is a fully autonomous **financial news aggregation website** that updates i
 
 ## ⚡ Why No Database?
 Unlike traditional news apps, this project avoids databases entirely:  
-- All content is **static HTML + JSON/JS**, version-controlled in GitHub.  
+- All content is **static HTML + JS**, version-controlled in GitHub.  
 - Updates are just new commits, keeping infrastructure **100% free**.  
 - Hosting & deployment handled seamlessly by **Cloudflare Pages**.  
 
