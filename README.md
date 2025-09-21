@@ -1,10 +1,9 @@
-# 📰 Autonomously-Updated Financial News Aggregator with LLM-Generation
-🔗 **Live Demo**: [https://taigos.com](https://taigos.com)
+# 📰 Autonomous Financial News Aggregator with LLM-Generation - <a href="https://taigos.com">🔗 **Live Demo**</a>
 
 ---
 
 ## 🌐 Project Overview
-**Taigos** is a fully autonomous **financial news aggregation website** that updates itself **once every 24 hours** with fresh stock market and crypto headlines.  
+This is a fully autonomous **financial news aggregation website** that updates itself **once every 24 hours** with fresh stock market and crypto headlines.  
 
 - ✅ **No database required** → all articles are generated as `.html` files and committed directly to the repo.  
 - ✅ **Zero hosting costs** → the site is deployed via **Cloudflare Pages**, leveraging GitHub Actions (GHA) and Wrangler.  
@@ -17,7 +16,7 @@
 
 ### 🔄 Daily Update Cycle
 1. **GitHub Actions Cron Job**  
-   - Runs every 24 hours (`schedule: cron`).  
+   - Runs every 24 hours at 12:30 UTC before US stock market opens.  
    - Executes the compiled **C# .NET 9 console application**.  
 
 2. **Fetch Financial News**  
@@ -27,8 +26,8 @@
    - Sends raw article text to **Cloudflare Workers AI**.  
    - Uses a **LLaMA-based LLM** to generate:  
      - ✍️ A rewritten article.  
-     - 📌 A short summary.
-     - 🏷️ A concise title.
+     - 📌 A short summary.  
+     - 🏷️ A concise title.  
 
 4. **Static File Generation**  
    - Creates new `.html` article pages.  
@@ -41,7 +40,7 @@
 ---
 
 ## ⚡ Why No Database?
-Unlike traditional news apps, **Taigos avoids databases entirely**:
+Unlike traditional news apps, this project avoids databases entirely:  
 - All content is **static HTML + JSON/JS**, version-controlled in GitHub.  
 - Updates are just new commits, keeping infrastructure **100% free**.  
 - Hosting & deployment handled seamlessly by **Cloudflare Pages**.  
@@ -77,5 +76,6 @@ Unlike traditional news apps, **Taigos avoids databases entirely**:
 - [Git](https://git-scm.com/)  
 - API keys for:
   - Finnhub (news source)  
-  - Cloudflare Workers AI (summarization)
-    Names for environment variables can be found in the GHA YAML file.
+  - Cloudflare Workers AI (summarization)  
+
+🔑 Environment variable names can be found in the GitHub Actions YAML file.  
