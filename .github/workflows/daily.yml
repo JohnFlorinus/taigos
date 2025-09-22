@@ -2,7 +2,7 @@ name: Article Scheduler
 
 on:
   schedule:
-    - cron: '22 13 * * *' # uneven timestamp to avoid high GHA load times
+    - cron: '43 12 * * *' # uneven timestamp to avoid high GHA load times
   workflow_dispatch:
 
 permissions:
