@@ -1,4 +1,4 @@
-const crntarticlecount = 9;
+const crntarticlecount = 10;
 
 const articlesMeta = {
 1: { title: "The US economy is experiencing a slowdown, with a 1% increase in median household income and a surge in interest in big tech stocks, amidst concerns about volatility and regulatory changes.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -9,7 +9,8 @@ const articlesMeta = {
   6: { title: "The stock market has reached record highs despite economic complexities.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
   7: { title: "The US Federal Reserve's interest rate cut has not led to expected decreases in long-term rates.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
   8: { title: "Mortgage rates have unexpectedly increased following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
-  9: { title: "Rising 10-year Treasury yields are likely to further increase coffee prices due to tariffs amid ongoing trade tensions.", img: "https://image.cnbcfm.com/api/v1/image/108201485-1758310690688-gettyimages-2232204702-m36a9242.jpeg?v=1758310734&w=1920&h=1080",  date: "2025-09-21" }
+  9: { title: "Rising 10-year Treasury yields are likely to further increase coffee prices due to tariffs amid ongoing trade tensions.", img: "https://image.cnbcfm.com/api/v1/image/108201485-1758310690688-gettyimages-2232204702-m36a9242.jpeg?v=1758310734&w=1920&h=1080",  date: "2025-09-21" },
+  10: { title: "The S&P 500 and Nasdaq have driven the US stock market to new highs.", img: "https://image.cnbcfm.com/api/v1/image/108148105-1747763002538-108148105-1747758171199-NUP_207730_02334.JPG?v=1747763009&w=1920&h=1080",  date: "2025-09-24" }
 };
 
 function renderArticles(page = 1) {
