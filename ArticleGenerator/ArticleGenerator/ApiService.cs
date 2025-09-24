@@ -16,7 +16,7 @@ namespace ArticleGenerator
         public static string articleImage = "Empty";
 
 
-        public static async Task<string> GetNews(string previousImage)
+        public static async Task<string> GetNews(List<ArticleItem> previousArticles)
         {
             string newsToAnalyze = "";
 
@@ -29,9 +29,15 @@ namespace ArticleGenerator
                 {
                     foreach (var item in newsItems)
                     {
-                        if (!item.image.Contains("market_watch") && articleImage == "Empty" && item.image != previousImage)
+                        if (!item.image.Contains("market_watch") && articleImage == "Empty")
                         {
-                            articleImage = item.image;
+                            foreach (string img in previousArticles.Select(a => a.ImageUrl))
+                            {
+                                if (item.image != img)
+                                {
+                                    articleImage = item.image;
+                                }
+                            }
                         }
                         newsToAnalyze += $"~{item.headline}@{item.summary}";
                     }

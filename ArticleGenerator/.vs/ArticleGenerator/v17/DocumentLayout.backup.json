@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|c:\\users\\mohammed\\desktop\\repos\\taigos\\articlegenerator\\articlegenerator\\webmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|solutionrelative:articlegenerator\\webmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|c:\\users\\mohammed\\desktop\\repos\\taigos\\articlegenerator\\articlegenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|solutionrelative:articlegenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|c:\\users\\mohammed\\desktop\\repos\\taigos\\articlegenerator\\articlegenerator\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|solutionrelative:articlegenerator\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|c:\\users\\mohammed\\desktop\\repos\\taigos\\articlegenerator\\articlegenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|solutionrelative:articlegenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|c:\\users\\mohammed\\desktop\\repos\\taigos\\articlegenerator\\articlegenerator\\webmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8171F9D5-88A0-4ED3-9C7D-E9542C7C3C01}|ArticleGenerator\\ArticleGenerator.csproj|solutionrelative:articlegenerator\\webmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WebMod.cs",
               "DocumentMoniker": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\WebMod.cs",
               "RelativeDocumentMoniker": "ArticleGenerator\\WebMod.cs",
               "ToolTip": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\WebMod.cs",
               "RelativeToolTip": "ArticleGenerator\\WebMod.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAAALUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T12:59:27.103Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "ArticleGenerator\\ApiService.cs",
               "ToolTip": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\ApiService.cs",
               "RelativeToolTip": "ArticleGenerator\\ApiService.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwCUAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwCAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T15:51:03.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\Program.cs",
               "RelativeDocumentMoniker": "ArticleGenerator\\Program.cs",
               "ToolTip": "C:\\Users\\mohammed\\Desktop\\repos\\taigos\\ArticleGenerator\\ArticleGenerator\\Program.cs",
               "RelativeToolTip": "ArticleGenerator\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwDoAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T15:29:08.333Z",
               "EditorCaption": ""

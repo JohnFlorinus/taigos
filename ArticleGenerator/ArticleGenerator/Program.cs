@@ -43,26 +43,26 @@ namespace ArticleGenerator
             CF_ACCOUNT_ID = Environment.GetEnvironmentVariable("CF_ACCOUNT_ID");
 
             Console.WriteLine("Getting previous article to prevent repetition...");
-            ArticleItem previousArticle = await WebMod.GetLatestArticle();
+            List<ArticleItem> previousArticles = await WebMod.GetLatestArticles(3);
 
             Console.WriteLine("Getting Latest News...");
-            string newsContent = await ApiService.GetNews(previousArticle.ImageUrl);
+            string newsContent = await ApiService.GetNews(previousArticles);
 
             Console.WriteLine("Generating Article Essay...");
             string articleEssay = await ApiService.AITextGeneration(
                 "Write a concise financial article on the following news summaries. Begin directly with the key facts. Write in a neutral, analytic tone and focus on the important points while avoiding repetitions and irrelevant or minor news items." +
                 $"Do not include any introductory phrases.\n" +
                 $"News summaries:{newsContent}\n" +
-                $"The generated article may make references to, but may not be overly similar or repeat the same information as: {previousArticle.Content}");
+                $"The generated article may make references to, but may not be similar/repeat this article which was posted yesterday: {previousArticles[0].Content}");
 
             Console.WriteLine("Generating Article Summary...");
             string articleSummary = await ApiService.AITextGeneration(
                 $"Based on the following article, write a concise summary of 2-3 sentences that captures the most significant points. Do not include any introductory phrases and only write the summary directly." +
-                $"Article: {articleEssay}\n");
+                $"Article: {articleEssay}");
 
             Console.WriteLine("Generating Article Title...");
             string articleTitle = await ApiService.AITextGeneration(
-                $"Write a very short sentence based on the following text: {articleSummary}\nMake sure that the generated sentence is not similar to {previousArticle.Title}");
+                $"Write a very short sentence based on the following text: {articleSummary}\nMake sure that the generated sentence is not similar to '{previousArticles[0].Title}' or '{previousArticles[1].Title}");
 
             Console.WriteLine("Updating Website...");
             int newArticleCount = await WebMod.IncrementArticleCountAndJSMetadata(articleTitle, ApiService.articleImage);
