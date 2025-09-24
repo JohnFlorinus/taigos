@@ -1,10 +1,11 @@
-const crntarticlecount = 4;
+const crntarticlecount = 5;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
   2: { title: "Rising long-term interest rates contrast with the US Federal Reserve's recent interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201325-1758296116975-gettyimages-2171459190-hhhmatucoupslowlifegettybf2024hhh204.jpeg?v=1758296305&w=1920&h=1080",  date: "2025-09-21" },
   3: { title: "Oracle's leadership transition is proceeding with minimal disruption under Safra Catz and new co-CEOs.", img: "https://image.cnbcfm.com/api/v1/image/108196250-1757438255413-gettyimages-2207639855-TFSPI_02042025-6095.jpeg?v=1758538599&w=1920&h=1080",  date: "2025-09-22" },
-  4: { title: "US economic growth is likely to decelerate this year despite a slightly more optimistic revised forecast from the OECD.", img: "https://image.cnbcfm.com/api/v1/image/107009544-1643734747012-gettyimages-1300924332-a53i8166_20210207102128309.jpeg?v=1727735662&w=1920&h=1080",  date: "2025-09-23" }
+  4: { title: "US economic growth is likely to decelerate this year despite a slightly more optimistic revised forecast from the OECD.", img: "https://image.cnbcfm.com/api/v1/image/107009544-1643734747012-gettyimages-1300924332-a53i8166_20210207102128309.jpeg?v=1727735662&w=1920&h=1080",  date: "2025-09-23" },
+  5: { title: "Precious metals are poised for a continued bull market, according to Citigroup strategists.", img: "https://image.cnbcfm.com/api/v1/image/108148105-1747763002538-108148105-1747758171199-NUP_207730_02334.JPG?v=1747763009&w=1920&h=1080",  date: "2025-09-24" }
 };
 
 function renderArticles(page = 1) {
