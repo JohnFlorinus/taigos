@@ -1,4 +1,4 @@
-const crntarticlecount = 6;
+const crntarticlecount = 7;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -6,7 +6,8 @@ const articlesMeta = {
   3: { title: "Oracle's leadership transition is proceeding with minimal disruption under Safra Catz and new co-CEOs.", img: "https://image.cnbcfm.com/api/v1/image/108196250-1757438255413-gettyimages-2207639855-TFSPI_02042025-6095.jpeg?v=1758538599&w=1920&h=1080",  date: "2025-09-22" },
   4: { title: "US economic growth is likely to decelerate this year despite a slightly more optimistic revised forecast from the OECD.", img: "https://image.cnbcfm.com/api/v1/image/107009544-1643734747012-gettyimages-1300924332-a53i8166_20210207102128309.jpeg?v=1727735662&w=1920&h=1080",  date: "2025-09-23" },
   5: { title: "Amazon's stock may offer a buying opportunity due to improving trends in its AWS cloud-computing business.", img: "https://image.cnbcfm.com/api/v1/image/107200469-1677528554271-NUP_200782_00155.jpg?v=1721682202&w=1920&h=1080",  date: "2025-09-24" },
-  6: { title: "Earnings reports are significantly influencing the stock market, with AI-driven demand boosting certain companies while others struggle with declining sales.", img: "https://image.cnbcfm.com/api/v1/image/108202390-1758571024707-Hip_177_3_Million_Gun_Runner_Colt_at_KEE_Sept_Yearling_Sale1.jpeg?v=1758650035&w=1920&h=1080",  date: "2025-09-25" }
+  6: { title: "Earnings reports are significantly influencing the stock market, with AI-driven demand boosting certain companies while others struggle with declining sales.", img: "https://image.cnbcfm.com/api/v1/image/108202390-1758571024707-Hip_177_3_Million_Gun_Runner_Colt_at_KEE_Sept_Yearling_Sale1.jpeg?v=1758650035&w=1920&h=1080",  date: "2025-09-25" },
+  7: { title: "US consumer spending and a stable labor market support the economy, potentially allowing for interest rate cuts.", img: "https://image.cnbcfm.com/api/v1/image/106950335-16330213422021-09-30t170025z_347214335_rc2rvp94a9pp_rtrmadp_0_aurora-autonomous.jpeg?v=1633021398&w=1920&h=1080",  date: "2025-09-26" }
 };
 
 function renderArticles(page = 1) {
