@@ -1,4 +1,4 @@
-const crntarticlecount = 9;
+const crntarticlecount = 10;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -9,7 +9,8 @@ const articlesMeta = {
   6: { title: "Earnings reports are significantly influencing the stock market, with AI-driven demand boosting certain companies while others struggle with declining sales.", img: "https://image.cnbcfm.com/api/v1/image/108202390-1758571024707-Hip_177_3_Million_Gun_Runner_Colt_at_KEE_Sept_Yearling_Sale1.jpeg?v=1758650035&w=1920&h=1080",  date: "2025-09-25" },
   7: { title: "US consumer spending and a stable labor market support the economy, potentially allowing for interest rate cuts.", img: "https://image.cnbcfm.com/api/v1/image/106950335-16330213422021-09-30t170025z_347214335_rc2rvp94a9pp_rtrmadp_0_aurora-autonomous.jpeg?v=1633021398&w=1920&h=1080",  date: "2025-09-26" },
   8: { title: "Physical gold is subject to capital gains tax, with tax rates ranging from 0% to 28%.", img: "https://image.cnbcfm.com/api/v1/image/108201471-1758310089160-IMG_9072.jpg?v=1758945050&w=1920&h=1080",  date: "2025-09-27" },
-  9: { title: "Modular housing may revive affordable home ownership.", img: "https://image.cnbcfm.com/api/v1/image/108204002-1758818988251-gabbys-dollhouse-the-movie-gallery-2b_Cropped.jpg?v=1758819110&w=1920&h=1080",  date: "2025-09-28" }
+  9: { title: "Modular housing may revive affordable home ownership.", img: "https://image.cnbcfm.com/api/v1/image/108204002-1758818988251-gabbys-dollhouse-the-movie-gallery-2b_Cropped.jpg?v=1758819110&w=1920&h=1080",  date: "2025-09-28" },
+  10: { title: "The 60/40 stock and bond portfolio has historically performed well in overvalued markets.", img: "https://image.cnbcfm.com/api/v1/image/108202852-1758644923424-gettyimages-2198911819-aoa123.jpeg?v=1758644969&w=1920&h=1080",  date: "2025-09-29" }
 };
 
 function renderArticles(page = 1) {
