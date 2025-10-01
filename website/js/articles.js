@@ -1,4 +1,4 @@
-const crntarticlecount = 11;
+const crntarticlecount = 12;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -11,7 +11,8 @@ const articlesMeta = {
   8: { title: "Physical gold is subject to capital gains tax, with tax rates ranging from 0% to 28%.", img: "https://image.cnbcfm.com/api/v1/image/108201471-1758310089160-IMG_9072.jpg?v=1758945050&w=1920&h=1080",  date: "2025-09-27" },
   9: { title: "Modular housing may revive affordable home ownership.", img: "https://image.cnbcfm.com/api/v1/image/108204002-1758818988251-gabbys-dollhouse-the-movie-gallery-2b_Cropped.jpg?v=1758819110&w=1920&h=1080",  date: "2025-09-28" },
   10: { title: "The 60/40 stock and bond portfolio has historically performed well in overvalued markets.", img: "https://image.cnbcfm.com/api/v1/image/108202852-1758644923424-gettyimages-2198911819-aoa123.jpeg?v=1758644969&w=1920&h=1080",  date: "2025-09-29" },
-  11: { title: "The Federal Reserve may cut interest rates in response to ongoing economic concerns.", img: "https://image.cnbcfm.com/api/v1/image/108196238-17574378542025-09-09t170710z_101730336_rc2dogafrgz1_rtrmadp_0_usa-stocks.jpeg?v=1757438034&w=1920&h=1080",  date: "2025-09-30" }
+  11: { title: "The Federal Reserve may cut interest rates in response to ongoing economic concerns.", img: "https://image.cnbcfm.com/api/v1/image/108196238-17574378542025-09-09t170710z_101730336_rc2dogafrgz1_rtrmadp_0_usa-stocks.jpeg?v=1757438034&w=1920&h=1080",  date: "2025-09-30" },
+  12: { title: "Treasury yields remain flat amid ongoing market uncertainty.", img: "https://image.cnbcfm.com/api/v1/image/108205811-1759248258700-gettyimages-2238328629-wm029751_kj9ps1cp.jpeg?v=1759248296&w=1920&h=1080",  date: "2025-10-01" }
 };
 
 function renderArticles(page = 1) {
