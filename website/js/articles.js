@@ -1,4 +1,4 @@
-const crntarticlecount = 13;
+const crntarticlecount = 14;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -13,7 +13,8 @@ const articlesMeta = {
   10: { title: "The 60/40 stock and bond portfolio has historically performed well in overvalued markets.", img: "https://image.cnbcfm.com/api/v1/image/108202852-1758644923424-gettyimages-2198911819-aoa123.jpeg?v=1758644969&w=1920&h=1080",  date: "2025-09-29" },
   11: { title: "The Federal Reserve may cut interest rates in response to ongoing economic concerns.", img: "https://image.cnbcfm.com/api/v1/image/108196238-17574378542025-09-09t170710z_101730336_rc2dogafrgz1_rtrmadp_0_usa-stocks.jpeg?v=1757438034&w=1920&h=1080",  date: "2025-09-30" },
   12: { title: "Treasury yields remain flat amid ongoing market uncertainty.", img: "https://image.cnbcfm.com/api/v1/image/108205811-1759248258700-gettyimages-2238328629-wm029751_kj9ps1cp.jpeg?v=1759248296&w=1920&h=1080",  date: "2025-10-01" },
-  13: { title: "US job cuts rose to 34,000 in September, sparking concerns about labor market weakness.", img: "https://image.cnbcfm.com/api/v1/image/108206556-1759338420094-gettyimages-2192441205-poolside-035.jpeg?v=1759338432&w=1920&h=1080",  date: "2025-10-02" }
+  13: { title: "US job cuts rose to 34,000 in September, sparking concerns about labor market weakness.", img: "https://image.cnbcfm.com/api/v1/image/108206556-1759338420094-gettyimages-2192441205-poolside-035.jpeg?v=1759338432&w=1920&h=1080",  date: "2025-10-02" },
+  14: { title: "The top 1% now hold a record $52 trillion in wealth, driven largely by the AI frenzy.", img: "https://image.cnbcfm.com/api/v1/image/108176674-1753386632366-gettyimages-2222164870-economou-notitle250618_np6Q5.jpeg?v=1759495022&w=1920&h=1080",  date: "2025-10-03" }
 };
 
 function renderArticles(page = 1) {
