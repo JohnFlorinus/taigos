@@ -1,4 +1,4 @@
-const crntarticlecount = 16;
+const crntarticlecount = 17;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -16,7 +16,8 @@ const articlesMeta = {
   13: { title: "US job cuts rose to 34,000 in September, sparking concerns about labor market weakness.", img: "https://image.cnbcfm.com/api/v1/image/108206556-1759338420094-gettyimages-2192441205-poolside-035.jpeg?v=1759338432&w=1920&h=1080",  date: "2025-10-02" },
   14: { title: "The top 1% now hold a record $52 trillion in wealth, driven largely by the AI frenzy.", img: "https://image.cnbcfm.com/api/v1/image/108176674-1753386632366-gettyimages-2222164870-economou-notitle250618_np6Q5.jpeg?v=1759495022&w=1920&h=1080",  date: "2025-10-03" },
   15: { title: "Market concerns are rising over potential bubbles in sectors such as AI and cryptocurrency.", img: "https://image.cnbcfm.com/api/v1/image/108207705-1759514304709-gettyimages-495359451-80179736.jpeg?v=1759514344&w=1920&h=1080",  date: "2025-10-04" },
-  16: { title: "US government shutdown and automotive market uncertainties are heightening financial strain on low-wage workers and contributing to job cuts.", img: "https://image.cnbcfm.com/api/v1/image/108207842-1759525669684-Audrey_Willie.jpg?v=1759526057&w=1920&h=1080",  date: "2025-10-05" }
+  16: { title: "US government shutdown and automotive market uncertainties are heightening financial strain on low-wage workers and contributing to job cuts.", img: "https://image.cnbcfm.com/api/v1/image/108207842-1759525669684-Audrey_Willie.jpg?v=1759526057&w=1920&h=1080",  date: "2025-10-05" },
+  17: { title: "Verizon's leadership change and major corporate deals, including Fifth Third Bancorp's acquisition of Comerica, have occurred amid a surging US stock market driven by AI-related sectors.", img: "https://image.cnbcfm.com/api/v1/image/106351594-1579791977326dsc03513r.jpg?v=1579792034&w=1920&h=1080",  date: "2025-10-06" }
 };
 
 function renderArticles(page = 1) {
