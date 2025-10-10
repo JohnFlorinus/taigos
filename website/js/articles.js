@@ -1,4 +1,4 @@
-const crntarticlecount = 20;
+const crntarticlecount = 21;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -20,7 +20,8 @@ const articlesMeta = {
   17: { title: "Verizon's leadership change and major corporate deals, including Fifth Third Bancorp's acquisition of Comerica, have occurred amid a surging US stock market driven by AI-related sectors.", img: "https://image.cnbcfm.com/api/v1/image/106351594-1579791977326dsc03513r.jpg?v=1579792034&w=1920&h=1080",  date: "2025-10-06" },
   18: { title: "Nvidia's stock may rise another 45%.", img: "https://image.cnbcfm.com/api/v1/image/108207529-1759500790003-INSIDE_ALT_MICHAEL_AROUGHETI_STILL_6.jpg?v=1759500852&w=1920&h=1080",  date: "2025-10-07" },
   19: { title: "Intel's stock could decline by 35% if it fails to secure a technology deal with TSMC.", img: "https://image.cnbcfm.com/api/v1/image/108199747-1758092929754-gettyimages-2219786637-_r7a2815_upctx9ds.jpeg?v=1759240120&w=1920&h=1080",  date: "2025-10-08" },
-  20: { title: "Economic data releases will likely influence the Federal Reserve's upcoming rate cut decisions.", img: "https://image.cnbcfm.com/api/v1/image/108036011-17266821802024-09-18t175528z_1079585413_rc253aa41xjh_rtrmadp_0_usa-fed-stocks.jpeg?v=1728093115&w=1920&h=1080",  date: "2025-10-09" }
+  20: { title: "Economic data releases will likely influence the Federal Reserve's upcoming rate cut decisions.", img: "https://image.cnbcfm.com/api/v1/image/108036011-17266821802024-09-18t175528z_1079585413_rc253aa41xjh_rtrmadp_0_usa-fed-stocks.jpeg?v=1728093115&w=1920&h=1080",  date: "2025-10-09" },
+  21: { title: "Nvidia's approval to sell chips to the UAE and OpenAI's deal with AMD are driving tech market developments.", img: "",  date: "2025-10-10" }
 };
 
 function renderArticles(page = 1) {
