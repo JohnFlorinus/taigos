@@ -1,4 +1,4 @@
-const crntarticlecount = 22;
+const crntarticlecount = 23;
 
 const articlesMeta = {
 1: { title: "The 10-year Treasury yield reached a 2-week high, defying expectations of a decline following the US Federal Reserve's interest rate cut.", img: "https://image.cnbcfm.com/api/v1/image/108201555-17583167612025-09-19t211751z_1764404862_rc29vgaeytiy_rtrmadp_0_usa-trump.jpeg?v=1758316820&w=1920&h=1080",  date: "2025-09-20" },
@@ -22,7 +22,8 @@ const articlesMeta = {
   19: { title: "Intel's stock could decline by 35% if it fails to secure a technology deal with TSMC.", img: "https://image.cnbcfm.com/api/v1/image/108199747-1758092929754-gettyimages-2219786637-_r7a2815_upctx9ds.jpeg?v=1759240120&w=1920&h=1080",  date: "2025-10-08" },
   20: { title: "Economic data releases will likely influence the Federal Reserve's upcoming rate cut decisions.", img: "https://image.cnbcfm.com/api/v1/image/108036011-17266821802024-09-18t175528z_1079585413_rc253aa41xjh_rtrmadp_0_usa-fed-stocks.jpeg?v=1728093115&w=1920&h=1080",  date: "2025-10-09" },
   21: { title: "Nvidia's approval to sell chips to the UAE and OpenAI's deal with AMD are driving tech market developments.", img: "",  date: "2025-10-10" },
-  22: { title: "Morgan Stanley's wealth management division is broadening access to cryptocurrencies for its clients, starting with Bitcoin funds.", img: "https://image.cnbcfm.com/api/v1/image/107060539-1652391835772-220305_IMG_0726.jpg?v=1696026975&w=1920&h=1080",  date: "2025-10-11" }
+  22: { title: "Morgan Stanley's wealth management division is broadening access to cryptocurrencies for its clients, starting with Bitcoin funds.", img: "https://image.cnbcfm.com/api/v1/image/107060539-1652391835772-220305_IMG_0726.jpg?v=1696026975&w=1920&h=1080",  date: "2025-10-11" },
+  23: { title: "Institutions are expected to increase digital asset allocations to 16% by 2028, according to a State Street survey.", img: "",  date: "2025-10-12" }
 };
 
 function renderArticles(page = 1) {
