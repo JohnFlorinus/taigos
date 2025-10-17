@@ -1,3 +1,5 @@
+$${\color{red}\text{Website has stopped updating because the API key became invalid.}}$$
+
 # 📰 Autonomous News Website - <a href="https://taigos.com">🔗 **Live Demo**</a>
 
 ---
