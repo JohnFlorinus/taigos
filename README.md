@@ -9,7 +9,6 @@ This is a fully autonomous **financial news aggregation website** that updates i
 
 - ✅ **No database required** → all articles are generated as `.html` files and committed directly to the repo.  
 - ✅ **LLM-Generation** → the daily news is summarized using **Cloudflare Workers AI**.
-- ✅ **Monetization** → **AdSense**-integration with GDPR/CCPA compliance.
 - ✅ **Zero hosting costs** → Runs entirely on **Cloudflare Pages** and **GitHub Actions**
 
 ⚠️ This **README** was AI-generated for better readability and structure. However, the project itself was manually coded by myself (the frontend design was based on a <a href="https://preview.colorlib.com/theme/readit/">premade HTML5 template</a>).
